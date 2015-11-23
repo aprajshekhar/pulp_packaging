@@ -9,7 +9,7 @@ cat << EOF | make testcert
 .
 .
 .
-pulpapi
+pulp-server.usersys.redhat.com
 .
 EOF
 popd
