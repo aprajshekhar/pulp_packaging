@@ -3,11 +3,11 @@
 # Version 2.6 Production Releases
 [pulp-v2-stable]
 name=Pulp v2 Production Releases
-baseurl=http://repos.fedorapeople.org/repos/pulp/pulp/stable/2.6/7Server/$basearch/
+baseurl=http://crane-jenkins.usersys.redhat.com/release-repo/$basearch/
 enabled=1
 skip_if_unavailable=0
-gpgcheck=1
-gpgkey=https://repos.fedorapeople.org/repos/pulp/pulp/GPG-RPM-KEY-pulp-2
+gpgcheck=0
+# gpgkey=https://repos.fedorapeople.org/repos/pulp/pulp/GPG-RPM-KEY-pulp-2
 
 # Version 2.6 Beta Builds
 [pulp-v2-beta]

@@ -3,7 +3,7 @@
 # Version 2.6 Production Releases
 [pulp-v2-stable]
 name=Pulp v2 Production Releases
-baseurl=http://repos.fedorapeople.org/repos/pulp/pulp/stable/2.6/7Server/$basearch/
+baseurl=http://repos.fedorapeople.org/repos/pulp/pulp/stable/2.7/7Server/$basearch/
 enabled=1
 skip_if_unavailable=0
 gpgcheck=1
